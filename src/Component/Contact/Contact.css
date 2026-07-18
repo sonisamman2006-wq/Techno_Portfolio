@@ -1,0 +1,176 @@
+.contact{
+
+    padding:120px 9%;
+    background:#0b0b0b;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.contact-left{
+
+    flex:1;
+}
+
+.contact-right{
+
+    flex:1;
+}
+
+.contact-subtitle{
+
+    color:#ff6b2d;
+    letter-spacing:3px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.contact h2{
+
+    font-size:55px;
+    margin-bottom:25px;
+}
+
+.contact-text{
+
+    color:#bdbdbd;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+.contact-info{
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.info-box{
+
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.icon{
+
+    width:50px;
+    height:50px;
+    background:#1b1b1b;
+    border-radius:50%;
+    color:#ff6b2d;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:15px;
+}
+
+.social-icons{
+
+    margin-top:40px;
+    display:flex;
+    gap:20px;
+}
+
+.social-icons a{
+
+    width:50px;
+    height:50px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:50%;
+    background:#1b1b1b;
+
+    color:white;
+    font-size:20px;
+
+    transition:.3s;
+}
+
+.social-icons a:hover{
+
+    background:#ff6b2d;
+}
+
+form{
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+form input,
+form textarea{
+
+    background:#171717;
+    border:1px solid #2c2c2c;
+    color:white;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    outline:none;
+}
+
+form input:focus,
+form textarea:focus{
+
+    border-color:#ff6b2d;
+}
+
+form button{
+
+    background:#ff6b2d;
+    color:white;
+    border:none;
+
+    padding:18px;
+
+    border-radius:35px;
+
+    font-size:18px;
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+form button:hover{
+
+    background:#ff814d;
+}
+
+@media(max-width:992px){
+
+.contact{
+
+flex-direction:column;
+
+}
+
+.contact h2{
+
+font-size:42px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.contact{
+
+padding:80px 6%;
+
+}
+
+}
