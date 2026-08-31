@@ -7,9 +7,7 @@ import Reviews from "./Component/Reviews/Reviews";
 import Blog from "./Component/Blog/Blog";
 import Contact from "./Component/Contact/Contact";
 import Footer from "./Component/Footer/Footer";
-import { UserContext } from "./Component/Context/UserContext";
-import Parent from "./Component/Parent";
-import GrandChild from "./Component/GrandChild"; 
+import Note from "./Component/Note/Note";
 
 function App(){
   // const [value, setValue] = useState("");
@@ -23,6 +21,7 @@ function App(){
   // const array = [4,5,6,7,8,9];
 
   return (
+    // <Note />
     // <>
     //   <input type="text" ref={inpuRef} onChange={handleChange}/>
     //   <h1>Accessing Data : {value}</h1>
@@ -50,7 +49,7 @@ function App(){
 //     </div>
 //   );2 
 // };
-  
+
     <>
      <Navbar />
       <Hero />
@@ -61,6 +60,7 @@ function App(){
       <Blog />
       <Contact />
       <Footer />
+      <Note />
     </>
 
 // const App = () => {
@@ -85,7 +85,7 @@ function App(){
 
   // const SumTwoDigits = (a,b) => {
   //   let c;
-  //   return a + b;
+  //   return a + b;  
   // };
   // return( 
   //   <div>
@@ -98,5 +98,5 @@ function App(){
   //     {SumTwoDigits(10,20)}
   //   </div>
   );
-}
+}    
 export default App;
